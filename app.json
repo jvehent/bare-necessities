@@ -1,0 +1,11 @@
+{
+    "name": "Bare Necessities",
+    "description": "A barebones Rust application using the Actix framework and deployed on Heroku",
+    "repository": "https://github.com/jvehent/bare-necessities",
+    "success_url": "/",
+    "keywords": ["rust", "actix"],
+    "website": "https://github.com/jvehent/bare-necessities",
+    "env": {
+      "BUILDPACK_URL": "https://github.com/emk/heroku-buildpack-rust.git"
+    }
+  }
