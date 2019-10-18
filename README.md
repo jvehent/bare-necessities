@@ -22,7 +22,7 @@ Or, if you'd prefer to use the command line, try running:
 ``` sh
 git clone https://github.com/jvehent/bare-necessities.git
 cd bare-necessities
-heroku create --buildpack jvehent/bare-necessities
+heroku create --buildpack emk/rust
 git push heroku master
 ```
 
