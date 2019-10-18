@@ -6,3 +6,9 @@ script:
 - |
   cargo build &&
   cargo test
+deploy:
+  provider: heroku
+  api_key:
+    secure: BrukNiFLvYqVEIwSkiyB+DeRQwo55abvh2HgXQoNcQJ671yWlwfOMxzfoDRbw2fkBUGzyrzzqyHAaNbmAnC2aQEGBCFXQHy21jSPmsEcVYqrdN+WIkiT/YHJPD6g+7/tJnm5S0y5zeURVCrhNmDzfF6psRrdfyKu8iobkIt9dIz4Q+gQ3wsdlXCZPfLLdJOrHTsbdNokiBiDQJKcvIq1vOQwCc0sbhI3OQPCNa0D6nVnPT651k2v5LVrj+30kuDHOtAv5c48xWxEVIwfdzbAcesjVhMua9rhiZzgZbgb+j1GGFa9pLuNuTBE/lQgkTrgScKNN6d62Xv6SKaoOTHcLFrC0l1NT422DYD8Fyu/j/NPa67K5MFX8pBh7wukFR0vsgsh0PYxA3hS4CXa0NS+5XNhIRlv28mbgz7OtYitWKr954o2O850mg0Fz1o6/zf5NZ+5Y9vWG7PTR7fZVWWSdPr9HjNb7TkW5UPeVoOgYXBQ42B4IYQYjjUP31fuwv/ernZNpRS95MgoC4CZKvNGXy4iaPHo5zWylzegU7HVXw2BLpl6M4jPjDOMH7C2PxDepZGGLLh1LhLDl+i+iY6VMdPmuf/cgFe0a3msDRwtzaG59cKOiLkUUZ6O6uOid5122z+Reg1ZkL2Vi5FBpwi1P9fqOKx7y3WqF0BmOUJ3FWs=
+  app: serene-caverns-18334
+  on: master
