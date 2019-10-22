@@ -1,8 +1,9 @@
 [package]
-name = "rust-buildpack-example-actix"
+name = "bare-necessities"
 version = "0.1.0"
-authors = ["Eric Kidd <git@randomhacks.net>"]
+authors = ["Julien Vehent <julien@vehent.org>"]
 edition = "2018"
 
 [dependencies]
 actix-web = "0.7"
+#actix-web = "1.0.8"
