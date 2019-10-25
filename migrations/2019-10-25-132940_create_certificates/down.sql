@@ -1,0 +1,7 @@
+DROP TABLE certificates;
+DROP INDEX certificates_sha256_fingerprint_idx;
+DROP INDEX certificates_subject_idx;
+DROP INDEX certificates_cisco_umbrella_rank;
+DROP INDEX certificates_first_seen_idx;
+DROP INDEX certificates_last_seen_idx;
+ALTER TABLE certificates DROP CONSTRAINT certificates_unique_sha256_fingerprint;
